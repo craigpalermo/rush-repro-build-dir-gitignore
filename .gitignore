@@ -69,3 +69,4 @@ common/autoinstallers/*/.npmrc
 
 # Build directories
 build/
+dist/

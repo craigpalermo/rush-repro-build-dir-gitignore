@@ -441,12 +441,12 @@
     //   // "versionPolicyName": ""
     // },
     //
-    // {
-    //   "packageName": "my-controls",
-    //   "projectFolder": "libraries/my-controls",
-    //   "reviewCategory": "production"
-    // },
-    //
+    {
+      "packageName": "@pcln-test/mylib",
+      "projectFolder": "components/mylib",
+      "reviewCategory": "components"
+    },
+
     {
       "packageName": "sample-deployed-app",
       "projectFolder": "apps/sample-deployed-app",

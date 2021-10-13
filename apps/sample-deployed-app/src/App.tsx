@@ -1,6 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { sum } from "@pcln-test/mylib";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -10,14 +11,7 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div>1 + 3 = {sum(1, 3)}</div>
       </header>
     </div>
   );
