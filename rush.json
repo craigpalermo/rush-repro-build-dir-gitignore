@@ -447,10 +447,10 @@
     //   "reviewCategory": "production"
     // },
     //
-    // {
-    //   "packageName": "my-toolchain",
-    //   "projectFolder": "tools/my-toolchain",
-    //   "reviewCategory": "tools"
-    // }
+    {
+      "packageName": "sample-deployed-app",
+      "projectFolder": "apps/sample-deployed-app",
+      "reviewCategory": "apps"
+    }
   ]
 }
